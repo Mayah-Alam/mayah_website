@@ -1,0 +1,1 @@
+// All animations in JavaScript for Mayah Alam's website
