@@ -10,6 +10,8 @@ body div {
 
 body p {
     font-size: large;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /*nav modified from w3 schools*/
