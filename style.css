@@ -4,8 +4,20 @@ body  {
 }
 
 body div {
-    text-align: center;
     margin: 40px;
+}
+
+.title, .about {
+    text-align: center;
+}
+
+.project {
+    text-align: left;
+}
+
+.project h5 {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 body p {
@@ -32,6 +44,11 @@ body p {
 }
 
 p a {
-    color: rgb(17, 147, 194);
+    color: rgb(17, 147, 194);;
     text-decoration: none;
+}
+
+.project .key {
+    color:rgb(17, 147, 194); 
+    text-decoration: underline;
 }

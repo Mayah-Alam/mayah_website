@@ -22,10 +22,38 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
     </div>
     <div id="about">
         <p>
-            All of my upper level computer science classes my senior year were taught in Python. 
-            A lot of these projects I put under web applications because I used Python and Flask for API integration, authenticaiton, and search features for <a href="web.html">websites.</a>
-            I also used python in all of my natural language processing, machine learning, and AI projects found <a href="nlp_ml.hmtl">here.</a>
+            All of my upper level computer science classes my senior year were taught in Python.
+            I coded all of my <a href="nlp_ml.hmtl">natural language processing, machine learning, and AI projects</a> in python.
+            I also used Python in all of my <a href="web.html">web applications</a> for API integration, authentication, templates, and more.<br>
             On this page all my other python projects are listed.
+        </p>
+    </div>
+    <div class="project">
+        <h5>March Madness Bracket Generator</h5>
+        <p>
+            Team size: 5<br>
+            When: February-April 2024<br>
+            About: Our team created a bracket generator for March Madness for our semester long project.
+            We coded a <span class="key">web crawler</span> to scrape NCAA data from the ESPN website. 
+            Then we created a <span class="key">custom score metric</span> using win percentage and SOS (Strength of schedule).
+            Then <span class="key">I personally designed algorithms in Python to predict the winners</span> of each game in every round using seeding 
+            history and our metric. <span class="key">I incorporated randomness</span> so we could generate a variety of brackets
+            which averaged a precision of 34% for the final four over 50 brackets (which is better than the average human).
+            We quantified and visualized our results in the following poster as well as a written report. <br>
+            Demo: <a href="https://github.com/lusolorz/EECS486_Final.git">github repo</a> and INCLUDE POSTER PIC
+        </p>
+    </div>
+    <div class="project">
+        <h5>Mapreduce Distributed System</h5>
+        <p>
+            Team size: 3<br>
+            When October-November 2023: <br>
+            About: We simulated a <span class="key">distributed systems</span> environment using <span class="key"></span>TCP and UDP threading and sockets.
+             We executed the Michigan <span class="key">Hadoop algorithm</span> called Madoop. In order to properly simulate a distributed environment 
+             we had to create a <span class="key">layer of abstraction.</span> Our Manager class had to assign jobs to remote Workers and reassign tasks if 
+             the Worker was <q>offline</q>. Each Worker had to complete its given task and send <span class="key">heartbeats using UDP</span> to the Manager. There was no direct connection
+            between the Manager and workers.<br>
+            Demo: <a href="ttps://gist.github.com/Mayah-Alam/97ae0984b1baf9130f31eec22f2c743d">code gists</a>
         </p>
     </div>
 </body>
