@@ -52,3 +52,19 @@ p a {
     color:rgb(17, 147, 194); 
     text-decoration: underline;
 }
+
+#landing-images {
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#landing-images img {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
