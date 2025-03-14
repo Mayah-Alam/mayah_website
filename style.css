@@ -3,9 +3,9 @@ body  {
     font-family: sans-serif, arial;
 }
 
-body div {
+/* body div {
     margin: 40px;
-}
+} */
 
 .title, .about {
     text-align: center;
@@ -18,17 +18,20 @@ body div {
 .project h5 {
     margin-left: 100px;
     margin-right: 100px;
+    margin: 30px;
 }
 
 body p {
     font-size: large;
     margin-left: 100px;
     margin-right: 100px;
+    margin: 30px;
 }
 
 /*nav modified from w3 schools*/
 #nav {
     overflow: hidden;
+    margin: 20px;
 }
 
 #nav a {
@@ -76,4 +79,7 @@ p a {
     max-width: 100%;
     height: 450px;
     object-fit: cover;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin: 20px;
 }
