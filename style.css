@@ -43,6 +43,15 @@ body p {
     color: rgb(17, 147, 194);
 }
 
+#nav img {
+    height:auto;
+    width:20px;
+}
+
+#nav .active {
+    color: rgb(17, 147, 194);
+}
+
 p a {
     color: rgb(17, 147, 194);;
     text-decoration: none;
